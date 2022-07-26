@@ -1,0 +1,389 @@
+
+//ESCRITORIO NORMAL
+@media (min-width: 1024px) { 
+    //aca empieza la barra de navegacion
+    nav{
+        background-color: rgba(0, 0, 0, 0.178);
+        width: 100vw;
+        position: fixed !important;
+        z-index: 6;
+    div.container-fluid{
+        justify-content: center !important;
+        .p-celu{
+            display: none;
+        }
+        div, #navbarText, .navbar-collapse, .collapse{
+            flex-grow: 0 !important;
+            ul, .navbar-nav, .me-auto, .mb-2{
+                display: flex;
+                align-items: baseline;
+                width: 70vw;
+                justify-content: space-around;
+                li{
+                    a{
+                        color: antiquewhite;
+                        font-family: 'Secular One', sans-serif;
+                        letter-spacing: 0.2em;
+                        img{
+                            width: 10vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// aca termina la barra de navegacion
+//aca empieza inicio de la pagina, la primera seccion
+main{
+section.fondo1{
+    background: radial-gradient(rgba(146, 58, 0, 0.322), rgba(0, 0, 0, 0.445)), url(../elementos/fondo1.jpg); ;
+    background-repeat: no-repeat;
+    background-size:  100% 100%;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 15vh;
+    h1{
+        padding-top: 8vh;
+        font-family: 'Secular One', sans-serif;
+        letter-spacing: 0.2em;
+        text-align: center;
+        color: antiquewhite;
+    }
+    p{
+        color: antiquewhite;
+        font-size: 1.2em;
+    }
+}
+section.fondo2{
+    background: url(../elementos/fondoreceta.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15vh;
+    div{
+        display: flex;
+        justify-content: center;
+         h2{
+        font-family: 'Great Vibes', cursive;
+        font-size: 3em;
+        padding-top: 23vh;
+        text-align: center;
+        width: auto;
+        position: relative;
+        color: antiquewhite;
+        z-index: 10;
+        }
+        h2::after{
+            content: '';
+            position: absolute;
+            top: 175px;
+            left: 0;
+            width: 100%;
+            background: rgba(255, 166, 0, 0.404);
+            height: 17px;
+            z-index: -1;
+        }
+    }
+    p{
+        width: 60%;
+        color: antiquewhite;
+    }
+}
+section.fondo3{
+    background: radial-gradient(rgba(245, 244, 244, 0.815), rgba(255, 254, 253, 0.685)) ,url(../elementos/fondodibujo.jpg);
+    width: 100%;
+    background-size: cover;
+    div.fondocolor{
+        width: 100%;
+        background: rgba(255, 166, 0, 0.404);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 10vh;
+
+        h3{
+            font-family: 'Great Vibes', cursive;
+            font-size: 3.5em;
+            padding-top: 23vh;
+            text-align: center;
+            width: 11%;
+            position: relative;
+            z-index: 2;
+            align-self: center;
+            padding-bottom: 5vh;
+            }
+            h3::after{
+                content: '';
+                position: absolute;
+                top: 175px;
+                left: 0;
+                width: 100%;
+                background: rgba(255, 255, 255, 0.514);
+                height: 17px;
+                z-index: -1;
+            }
+            div.carta{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            div.bloque-carta{
+                padding: 15px;
+                background: rgb(245, 245, 245);
+                h4.subtitulo-carta{
+                    font-size: 2em;
+                    font-family: 'Secular One', sans-serif;
+                    text-transform: uppercase;
+                    text-align: center;
+                }
+                .subtitulo-carta{
+                    padding-top: 20px;
+                }
+            div#conJson{
+
+                div{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 30vw;
+                padding-top: 10px;
+                border-bottom: 1px dashed black;
+                h4{
+                    font-family: 'Raleway', sans-serif;
+                    text-transform: uppercase;
+                    font-size: 1em;
+                }
+                p{
+                    font-family: 'Raleway', sans-serif;
+                    text-transform: uppercase;
+                }
+
+            }
+        }
+        section#alaventa{
+
+            fieldset{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 30vw;
+            padding-top: 10px;
+            border-bottom: 1px dashed black;
+           div{
+            display: flex;
+            flex-direction: row;
+            h4{
+                font-family: 'Raleway', sans-serif;
+                text-transform: uppercase;
+                font-size: 1em;
+                justify-items: flex-start;
+                padding-left: 10px;
+            }
+            .carrito{
+                align-self: flex-start;
+            }
+        }
+            p{
+                font-family: 'Raleway', sans-serif;
+                text-transform: uppercase;
+            }
+
+        }
+    }
+    }}
+    }
+    div{
+            div#productosContenedor{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                div.contenedor-item{
+                    display: flex;
+                    flex-direction: row;
+                    width: 57vw;
+                    padding: 15px;
+                    margin: 10px;
+                    border: 1px solid rgba(128, 128, 128, 0.603);
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    padding-left: 15px;
+
+                }
+            }
+            }
+    }
+}
+}
+
+video.fondo1{
+    width: 100vw;
+    height: 160vh;
+    z-index: -1;
+    position: absolute;
+    top: -230px;
+}
+
+section.fondo4{
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+
+    h3.titulo-recetas{
+        font-family: 'Great Vibes', cursive;
+        font-size: 3.5em;
+        padding-top: 23vh;
+        text-align: center;
+        width: 33%;
+        position: relative;
+        z-index: 2;
+        align-self: center;
+        padding-bottom: 5vh;
+        }
+        h3.titulo-recetas::after{
+            content: '';
+            position: absolute;
+            top: 175px;
+            left: 0;
+            width: 100%;
+            background: rgba(255, 166, 0, 0.404);
+            height: 17px;
+            z-index: -1;
+        }
+    div.recetas{
+        display: flex;
+        flex-direction: row;
+        div.bloque-recetas1{
+            width: 60%;
+            padding-right: 15px;
+            display: flex;
+            flex-direction: column;
+            h3{        
+                font-size: 1.6em;
+                font-family: 'Secular One', sans-serif;
+                text-transform: uppercase;
+                text-align:start;
+            }
+            p{
+                font-family: 'Assistant', sans-serif;
+            }
+     
+        }
+
+        div.bloque-recetas2{
+            padding-left: 15px;
+            img{
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            h3{
+                font-size: 1.6em;
+                font-family: 'Secular One', sans-serif;
+                text-transform: uppercase;
+                text-align: start;
+            }
+            form{
+                h4{
+                font-family: 'Assistant', sans-serif;
+                font-size: 1em;
+                }
+            }
+            div#nuevaReceta{
+                .ing{
+
+                font-family: 'Assistant', sans-serif;
+                font-size: 1em;
+                text-transform:initial;
+                }
+                p{
+                    margin-bottom: 0px !important;
+                }
+            }
+        }
+    }
+}
+#formulario2{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    h3{
+        font-family: 'Catamaran', sans-serif;
+    }
+    div{
+    input{
+        align-self: center;
+    }
+}
+}
+footer{
+    background: rgba(255, 166, 0, 0.719);
+    padding-top: 10vh;
+    div{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 10vh;
+        .footer-titulo{
+            font-family: 'Caudex', serif;
+            color: rgb(243, 241, 239);
+            font-size: 2em;
+        }
+        img{
+            width: 20vw;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            .footer-titulo{
+                font-family: 'Caudex', serif;
+                color: antiquewhite;
+            }
+            ul{
+                margin: 0px;
+                padding: 0px;
+            li{
+                list-style: none;
+
+                a{
+                    font-family: 'Caudex', serif;
+                    text-decoration: none;
+                    color: antiquewhite;
+                }
+                a:hover{
+                    color: rgba(255, 0, 0, 0.664);
+                }
+            }
+        }
+        }
+    }
+    h4.copy{
+        background: rgba(219, 159, 48, 0.664);
+        text-align: center;
+        letter-spacing: 0.3px;
+        color: antiquewhite;
+        font-size: 1em;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        font-family: 'Catamaran', sans-serif;
+    }
+}
+}
+svg.carrito{
+    width: 10px;
+    path{
+        fill:red;
+    }
+}

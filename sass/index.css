@@ -1,0 +1,511 @@
+@media all and (max-width: 480px) {
+  nav {
+    background-color: rgba(0, 0, 0, 0.178) !important;
+    z-index: 5;
+  }
+  nav div a img {
+    width: 30vw;
+  }
+  nav div div ul li .p-escritorio, nav div div .navbar-nav li .p-escritorio, nav div div .me-auto li .p-escritorio, nav div div .mb-2 li .p-escritorio, nav div #navbarText ul li .p-escritorio, nav div #navbarText .navbar-nav li .p-escritorio, nav div #navbarText .me-auto li .p-escritorio, nav div #navbarText .mb-2 li .p-escritorio, nav div .navbar-collapse ul li .p-escritorio, nav div .navbar-collapse .navbar-nav li .p-escritorio, nav div .navbar-collapse .me-auto li .p-escritorio, nav div .navbar-collapse .mb-2 li .p-escritorio, nav div .collapse ul li .p-escritorio, nav div .collapse .navbar-nav li .p-escritorio, nav div .collapse .me-auto li .p-escritorio, nav div .collapse .mb-2 li .p-escritorio {
+    display: none !important;
+  }
+  main section.fondo1 {
+    background: radial-gradient(rgba(0, 0, 0, 0.247), rgba(0, 0, 0, 0.63)), url(../elementos/fondo1celu.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main section.fondo1 h1 {
+    text-align: center;
+    color: antiquewhite;
+  }
+}
+
+@media (min-width: 1024px) {
+  nav {
+    background-color: rgba(0, 0, 0, 0.178);
+    width: 100vw;
+    position: fixed !important;
+    z-index: 6;
+  }
+  nav div.container-fluid {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  nav div.container-fluid .p-celu {
+    display: none;
+  }
+  nav div.container-fluid div, nav div.container-fluid #navbarText, nav div.container-fluid .navbar-collapse, nav div.container-fluid .collapse {
+    -webkit-box-flex: 0 !important;
+        -ms-flex-positive: 0 !important;
+            flex-grow: 0 !important;
+  }
+  nav div.container-fluid div ul, nav div.container-fluid div .navbar-nav, nav div.container-fluid div .me-auto, nav div.container-fluid div .mb-2, nav div.container-fluid #navbarText ul, nav div.container-fluid #navbarText .navbar-nav, nav div.container-fluid #navbarText .me-auto, nav div.container-fluid #navbarText .mb-2, nav div.container-fluid .navbar-collapse ul, nav div.container-fluid .navbar-collapse .navbar-nav, nav div.container-fluid .navbar-collapse .me-auto, nav div.container-fluid .navbar-collapse .mb-2, nav div.container-fluid .collapse ul, nav div.container-fluid .collapse .navbar-nav, nav div.container-fluid .collapse .me-auto, nav div.container-fluid .collapse .mb-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    width: 70vw;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  nav div.container-fluid div ul li a, nav div.container-fluid div .navbar-nav li a, nav div.container-fluid div .me-auto li a, nav div.container-fluid div .mb-2 li a, nav div.container-fluid #navbarText ul li a, nav div.container-fluid #navbarText .navbar-nav li a, nav div.container-fluid #navbarText .me-auto li a, nav div.container-fluid #navbarText .mb-2 li a, nav div.container-fluid .navbar-collapse ul li a, nav div.container-fluid .navbar-collapse .navbar-nav li a, nav div.container-fluid .navbar-collapse .me-auto li a, nav div.container-fluid .navbar-collapse .mb-2 li a, nav div.container-fluid .collapse ul li a, nav div.container-fluid .collapse .navbar-nav li a, nav div.container-fluid .collapse .me-auto li a, nav div.container-fluid .collapse .mb-2 li a {
+    color: antiquewhite;
+    font-family: 'Secular One', sans-serif;
+    letter-spacing: 0.2em;
+  }
+  nav div.container-fluid div ul li a img, nav div.container-fluid div .navbar-nav li a img, nav div.container-fluid div .me-auto li a img, nav div.container-fluid div .mb-2 li a img, nav div.container-fluid #navbarText ul li a img, nav div.container-fluid #navbarText .navbar-nav li a img, nav div.container-fluid #navbarText .me-auto li a img, nav div.container-fluid #navbarText .mb-2 li a img, nav div.container-fluid .navbar-collapse ul li a img, nav div.container-fluid .navbar-collapse .navbar-nav li a img, nav div.container-fluid .navbar-collapse .me-auto li a img, nav div.container-fluid .navbar-collapse .mb-2 li a img, nav div.container-fluid .collapse ul li a img, nav div.container-fluid .collapse .navbar-nav li a img, nav div.container-fluid .collapse .me-auto li a img, nav div.container-fluid .collapse .mb-2 li a img {
+    width: 10vw;
+  }
+  main section.fondo1 {
+    background: radial-gradient(rgba(146, 58, 0, 0.322), rgba(0, 0, 0, 0.445)), url(../elementos/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 15vh;
+  }
+  main section.fondo1 h1 {
+    padding-top: 8vh;
+    font-family: 'Secular One', sans-serif;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: antiquewhite;
+  }
+  main section.fondo1 p {
+    color: antiquewhite;
+    font-size: 1.2em;
+  }
+  main section.fondo2 {
+    background: url(../elementos/fondoreceta.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 15vh;
+  }
+  main section.fondo2 div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main section.fondo2 div h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3em;
+    padding-top: 23vh;
+    text-align: center;
+    width: auto;
+    position: relative;
+    color: antiquewhite;
+    z-index: 10;
+  }
+  main section.fondo2 div h2::after {
+    content: '';
+    position: absolute;
+    top: 175px;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 166, 0, 0.404);
+    height: 17px;
+    z-index: -1;
+  }
+  main section.fondo2 p {
+    width: 60%;
+    color: antiquewhite;
+  }
+  main section.fondo3 {
+    background: radial-gradient(rgba(245, 244, 244, 0.815), rgba(255, 254, 253, 0.685)), url(../elementos/fondodibujo.jpg);
+    width: 100%;
+    background-size: cover;
+  }
+  main section.fondo3 div.fondocolor {
+    width: 100%;
+    background: rgba(255, 166, 0, 0.404);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 10vh;
+  }
+  main section.fondo3 div.fondocolor h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5em;
+    padding-top: 23vh;
+    text-align: center;
+    width: 11%;
+    position: relative;
+    z-index: 2;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    padding-bottom: 5vh;
+  }
+  main section.fondo3 div.fondocolor h3::after {
+    content: '';
+    position: absolute;
+    top: 175px;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.514);
+    height: 17px;
+    z-index: -1;
+  }
+  main section.fondo3 div.fondocolor div.carta {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  main section.fondo3 div.fondocolor div.carta div.bloque-carta {
+    padding: 15px;
+    background: whitesmoke;
+  }
+  main section.fondo3 div.fondocolor div.carta div.bloque-carta h4.subtitulo-carta {
+    font-size: 2em;
+    font-family: 'Secular One', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  main section.fondo3 div.fondocolor div.carta div.bloque-carta .subtitulo-carta {
+    padding-top: 20px;
+  }
+  main section.fondo3 div.fondocolor div.carta div.bloque-carta div#conJson div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 30vw;
+    padding-top: 10px;
+    border-bottom: 1px dashed black;
+  }
+  main section.fondo3 div.fondocolor div.carta div.bloque-carta div#conJson div h4 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+  }
+  main section.fondo3 div.fondocolor div.carta div.bloque-carta div#conJson div p {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+  }
+  main section.fondo3 div.fondocolor div.carta div.bloque-carta section#alaventa fieldset {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 30vw;
+    padding-top: 10px;
+    border-bottom: 1px dashed black;
+  }
+  main section.fondo3 div.fondocolor div.carta div.bloque-carta section#alaventa fieldset div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  main section.fondo3 div.fondocolor div.carta div.bloque-carta section#alaventa fieldset div h4 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    justify-items: flex-start;
+    padding-left: 10px;
+  }
+  main section.fondo3 div.fondocolor div.carta div.bloque-carta section#alaventa fieldset div .carrito {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  main section.fondo3 div.fondocolor div.carta div.bloque-carta section#alaventa fieldset p {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+  }
+  main section.fondo3 div div#productosContenedor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main section.fondo3 div div#productosContenedor div.contenedor-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 57vw;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.603);
+  }
+  main section.fondo3 div div#productosContenedor div.contenedor-item div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 15px;
+  }
+  video.fondo1 {
+    width: 100vw;
+    height: 160vh;
+    z-index: -1;
+    position: absolute;
+    top: -230px;
+  }
+  section.fondo4 {
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 50px;
+  }
+  section.fondo4 h3.titulo-recetas {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5em;
+    padding-top: 23vh;
+    text-align: center;
+    width: 33%;
+    position: relative;
+    z-index: 2;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    padding-bottom: 5vh;
+  }
+  section.fondo4 h3.titulo-recetas::after {
+    content: '';
+    position: absolute;
+    top: 175px;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 166, 0, 0.404);
+    height: 17px;
+    z-index: -1;
+  }
+  section.fondo4 div.recetas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  section.fondo4 div.recetas div.bloque-recetas1 {
+    width: 60%;
+    padding-right: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section.fondo4 div.recetas div.bloque-recetas1 h3 {
+    font-size: 1.6em;
+    font-family: 'Secular One', sans-serif;
+    text-transform: uppercase;
+    text-align: start;
+  }
+  section.fondo4 div.recetas div.bloque-recetas1 p {
+    font-family: 'Assistant', sans-serif;
+  }
+  section.fondo4 div.recetas div.bloque-recetas2 {
+    padding-left: 15px;
+  }
+  section.fondo4 div.recetas div.bloque-recetas2 img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  section.fondo4 div.recetas div.bloque-recetas2 h3 {
+    font-size: 1.6em;
+    font-family: 'Secular One', sans-serif;
+    text-transform: uppercase;
+    text-align: start;
+  }
+  section.fondo4 div.recetas div.bloque-recetas2 form h4 {
+    font-family: 'Assistant', sans-serif;
+    font-size: 1em;
+  }
+  section.fondo4 div.recetas div.bloque-recetas2 div#nuevaReceta .ing {
+    font-family: 'Assistant', sans-serif;
+    font-size: 1em;
+    text-transform: initial;
+  }
+  section.fondo4 div.recetas div.bloque-recetas2 div#nuevaReceta p {
+    margin-bottom: 0px !important;
+  }
+  #formulario2 {
+    padding: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #formulario2 h3 {
+    font-family: 'Catamaran', sans-serif;
+  }
+  #formulario2 div input {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  footer {
+    background: rgba(255, 166, 0, 0.719);
+    padding-top: 10vh;
+  }
+  footer div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding-bottom: 10vh;
+  }
+  footer div .footer-titulo {
+    font-family: 'Caudex', serif;
+    color: #f3f1ef;
+    font-size: 2em;
+  }
+  footer div img {
+    width: 20vw;
+  }
+  footer div div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer div div .footer-titulo {
+    font-family: 'Caudex', serif;
+    color: antiquewhite;
+  }
+  footer div div ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  footer div div ul li {
+    list-style: none;
+  }
+  footer div div ul li a {
+    font-family: 'Caudex', serif;
+    text-decoration: none;
+    color: antiquewhite;
+  }
+  footer div div ul li a:hover {
+    color: rgba(255, 0, 0, 0.664);
+  }
+  footer h4.copy {
+    background: rgba(219, 159, 48, 0.664);
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: antiquewhite;
+    font-size: 1em;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-family: 'Catamaran', sans-serif;
+  }
+}
+
+svg.carrito {
+  width: 10px;
+}
+
+svg.carrito path {
+  fill: red;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/*# sourceMappingURL=index.css.map */

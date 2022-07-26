@@ -1,0 +1,42 @@
+
+ //Móviles en horizontal o tablets en vertical
+@media all and (max-width: 480px){ 
+    nav{
+        background-color: rgba(0, 0, 0, 0.178) !important;
+        z-index: 5;
+        div{
+            a {
+                img{
+                width: 30vw;
+                }
+            }
+            div, #navbarText, .navbar-collapse, .collapse{
+                ul, .navbar-nav, .me-auto, .mb-2{
+                    li{
+                        .p-escritorio{
+                            display: none !important;
+
+                    }
+                }
+                }
+            }
+        }
+    }
+main{
+    section.fondo1{
+        background: radial-gradient(rgba(0, 0, 0, 0.247), rgba(0, 0, 0, 0.63)), url(../elementos/fondo1celu.jpg); ;
+        background-repeat: no-repeat;
+        background-size:  100% 100%;
+        background-attachment: fixed;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1{
+            text-align: center;
+            color: antiquewhite;
+        }
+    }
+}
+}
