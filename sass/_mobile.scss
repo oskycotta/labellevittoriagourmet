@@ -1,11 +1,16 @@
 
  //Móviles en horizontal o tablets en vertical
-@media all and (max-width: 480px){ 
+ @media all and (max-width: 480px){ 
     nav{
-        background-color: rgba(0, 0, 0, 0.178) !important;
-        z-index: 5;
+        background: rgb(165, 99, 0)!important;
+        z-index: 10;
+        position: fixed !important;
+        width: 100%;
         div{
-            a {
+            a, .nav-link {
+                color: antiquewhite;
+                font-family: 'Secular One', sans-serif;
+                letter-spacing: 0.2em;
                 img{
                 width: 30vw;
                 }
@@ -33,10 +38,272 @@ main{
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
+        z-index: -3;
         h1{
             text-align: center;
             color: antiquewhite;
+            font-size: 270%;
+            padding-left: 150px;
+            padding-right: 150px;
         }
+        p{
+            color: antiquewhite;
+            font-size: 1.2em;
+            font-size: 130%;
+            text-align: center;
+        }
+    }
+
+
+    section.fondo2{
+        background: url(../elementos/fondo2celu.jpg);
+        width: 100%;
+        height: 130vh;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        div{
+            display: flex;
+            justify-content: center;
+             h2{
+            font-family: 'Great Vibes', cursive;
+            font-size: 3em;
+            padding-top: 5vh;
+            text-align: center;
+            width: auto;
+            position: relative;
+            color: antiquewhite;
+            z-index: 9;
+            }
+            h2::after{
+                content: '';
+                position: absolute;
+                top: 65px;
+                left: 0;
+                width: 100%;
+                background: rgba(255, 166, 0, 0.404);
+                height: 17px;
+                z-index: -1;
+            }
+        }
+        p{
+            width: 90%;
+            color: antiquewhite;
+            font-size: 130%;
+        }
+        .p-fondo2{
+            text-align: end;
+        }
+    }
+
+
+
+section.fondo3{
+    background: radial-gradient(rgba(245, 244, 244, 0.815), rgba(255, 254, 253, 0.685)) ,url(../elementos/fondodibujo.jpg);
+    width: 100%;
+    background-size: cover;
+    div.fondocolor{
+        width: 100%;
+        background: rgba(255, 166, 0, 0.404);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 10vh;
+
+        h3{
+            font-family: 'Great Vibes', cursive;
+            font-size: 3.5em;
+            padding-top: 5vh;
+            text-align: center;
+            width: 35%;
+            position: relative;
+            z-index: 2;
+            align-self: center;
+            padding-bottom: 5vh;
+            }
+            h3::after{
+                content: '';
+                position: absolute;
+                top: 75px;
+                left: 0;
+                width: 100%;
+                background: rgba(255, 255, 255, 0.514);
+                height: 17px;
+                z-index: -1;
+            }
+            div.carta{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            div.bloque-carta{
+                padding: 15px;
+                background: rgb(245, 245, 245);
+                width: 90%;
+                h4.subtitulo-carta{
+                    font-size: 2em;
+                    font-family: 'Secular One', sans-serif;
+                    text-transform: uppercase;
+                    text-align: center;
+                }
+                .subtitulo-carta{
+                    padding-top: 20px;
+                }
+                .subtitulo-carta2{
+                    padding-top: 40px;
+                }
+            div#conJson{
+
+                div{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 100%;
+                padding-top: 10px;
+                border-bottom: 1px dashed black;
+                h4{
+                    font-family: 'Raleway', sans-serif;
+                    text-transform: uppercase;
+                    font-size: 1.3em;
+                }
+                p{
+                    font-family: 'Raleway', sans-serif;
+                    text-transform: uppercase;
+                    font-size: 1.3em;
+                }
+
+            }
+        }
+        section#alaventa{
+
+            fieldset{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            padding-top: 10px;
+            border-bottom: 1px dashed black;
+           div{
+            display: flex;
+            flex-direction: row;
+            h4{
+                font-family: 'Raleway', sans-serif;
+                text-transform: uppercase;
+                font-size: 1.3em;
+                justify-items: flex-start;
+                padding-left: 10px;
+            }
+            .carrito{
+                align-self: flex-start;
+            }
+        }
+            p{
+                font-family: 'Raleway', sans-serif;
+                text-transform: uppercase;
+
+                font-size: 1.3em;
+            }
+
+        }
+    }
+    }}
+    }
+    div{
+            div#productosContenedor{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                div.contenedor-item{
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    padding: 15px;
+                    margin: 10px;
+                    border: 1px solid rgba(128, 128, 128, 0.603);
+                    img{
+                        width: 100%;
+                        padding-bottom: 20px;
+                    }
+                div{
+                    display: flex;
+                    flex-direction: column;
+                }
+                .card-text{
+                    align-self: flex-end;
+                }
+            }
+            }
+    }
+}
+
+
+
+}
+
+
+
+footer{
+    background: rgba(255, 166, 0, 0.719);
+    padding-top: 10vh;
+    height: auto;
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-bottom: 10vh;
+        .footer-titulo{
+            font-family: 'Caudex', serif;
+            color: rgb(243, 241, 239);
+            font-size: 2em;
+        }
+        img{
+            width: 100%;
+            padding-left: 60px;
+            padding-right: 60px;
+            padding-bottom: 30px;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            padding-top: 30px;
+            padding-left: 60px;
+            padding-right: 60px;
+            padding-bottom: 20px;
+            .footer-titulo{
+                font-family: 'Caudex', serif;
+                color: antiquewhite;
+            }
+            ul{
+                margin: 0px;
+                padding: 0px;
+            li{
+                list-style: none;
+
+                a{
+                    font-family: 'Caudex', serif;
+                    text-decoration: none;
+                    color: antiquewhite;
+                }
+                a:hover{
+                    color: rgba(255, 0, 0, 0.664);
+                }
+            }
+        }
+        }
+    }
+    h4.copy{
+        background: rgba(219, 159, 48, 0.664);
+        text-align: center;
+        letter-spacing: 0.3px;
+        color: antiquewhite;
+        font-size: 1em;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        font-family: 'Catamaran', sans-serif;
     }
 }
 }

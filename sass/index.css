@@ -1,9 +1,16 @@
 @media all and (max-width: 480px) {
   nav {
-    background-color: rgba(0, 0, 0, 0.178) !important;
-    z-index: 5;
+    background: #a56300 !important;
+    z-index: 10;
+    position: fixed !important;
+    width: 100%;
   }
-  nav div a img {
+  nav div a, nav div .nav-link {
+    color: antiquewhite;
+    font-family: 'Secular One', sans-serif;
+    letter-spacing: 0.2em;
+  }
+  nav div a img, nav div .nav-link img {
     width: 30vw;
   }
   nav div div ul li .p-escritorio, nav div div .navbar-nav li .p-escritorio, nav div div .me-auto li .p-escritorio, nav div div .mb-2 li .p-escritorio, nav div #navbarText ul li .p-escritorio, nav div #navbarText .navbar-nav li .p-escritorio, nav div #navbarText .me-auto li .p-escritorio, nav div #navbarText .mb-2 li .p-escritorio, nav div .navbar-collapse ul li .p-escritorio, nav div .navbar-collapse .navbar-nav li .p-escritorio, nav div .navbar-collapse .me-auto li .p-escritorio, nav div .navbar-collapse .mb-2 li .p-escritorio, nav div .collapse ul li .p-escritorio, nav div .collapse .navbar-nav li .p-escritorio, nav div .collapse .me-auto li .p-escritorio, nav div .collapse .mb-2 li .p-escritorio {
@@ -25,10 +32,330 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    z-index: -3;
   }
   main section.fondo1 h1 {
     text-align: center;
     color: antiquewhite;
+    font-size: 270%;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  main section.fondo1 p {
+    color: antiquewhite;
+    font-size: 1.2em;
+    font-size: 130%;
+    text-align: center;
+  }
+  main section.fondo2 {
+    background: url(../elementos/fondo2celu.jpg);
+    width: 100%;
+    height: 130vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main section.fondo2 div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main section.fondo2 div h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3em;
+    padding-top: 5vh;
+    text-align: center;
+    width: auto;
+    position: relative;
+    color: antiquewhite;
+    z-index: 9;
+  }
+  main section.fondo2 div h2::after {
+    content: '';
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 166, 0, 0.404);
+    height: 17px;
+    z-index: -1;
+  }
+  main section.fondo2 p {
+    width: 90%;
+    color: antiquewhite;
+    font-size: 130%;
+  }
+  main section.fondo2 .p-fondo2 {
+    text-align: end;
+  }
+  main section.fondo3 {
+    background: radial-gradient(rgba(245, 244, 244, 0.815), rgba(255, 254, 253, 0.685)), url(../elementos/fondodibujo.jpg);
+    width: 100%;
+    background-size: cover;
+  }
+  main section.fondo3 div.fondocolor {
+    width: 100%;
+    background: rgba(255, 166, 0, 0.404);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 10vh;
+  }
+  main section.fondo3 div.fondocolor h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5em;
+    padding-top: 5vh;
+    text-align: center;
+    width: 35%;
+    position: relative;
+    z-index: 2;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    padding-bottom: 5vh;
+  }
+  main section.fondo3 div.fondocolor h3::after {
+    content: '';
+    position: absolute;
+    top: 75px;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.514);
+    height: 17px;
+    z-index: -1;
+  }
+  main section.fondo3 div.fondocolor div.carta {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main section.fondo3 div.fondocolor div.carta div.bloque-carta {
+    padding: 15px;
+    background: whitesmoke;
+    width: 90%;
+  }
+  main section.fondo3 div.fondocolor div.carta div.bloque-carta h4.subtitulo-carta {
+    font-size: 2em;
+    font-family: 'Secular One', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  main section.fondo3 div.fondocolor div.carta div.bloque-carta .subtitulo-carta {
+    padding-top: 20px;
+  }
+  main section.fondo3 div.fondocolor div.carta div.bloque-carta .subtitulo-carta2 {
+    padding-top: 40px;
+  }
+  main section.fondo3 div.fondocolor div.carta div.bloque-carta div#conJson div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    padding-top: 10px;
+    border-bottom: 1px dashed black;
+  }
+  main section.fondo3 div.fondocolor div.carta div.bloque-carta div#conJson div h4 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.3em;
+  }
+  main section.fondo3 div.fondocolor div.carta div.bloque-carta div#conJson div p {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.3em;
+  }
+  main section.fondo3 div.fondocolor div.carta div.bloque-carta section#alaventa fieldset {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    padding-top: 10px;
+    border-bottom: 1px dashed black;
+  }
+  main section.fondo3 div.fondocolor div.carta div.bloque-carta section#alaventa fieldset div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  main section.fondo3 div.fondocolor div.carta div.bloque-carta section#alaventa fieldset div h4 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    justify-items: flex-start;
+    padding-left: 10px;
+  }
+  main section.fondo3 div.fondocolor div.carta div.bloque-carta section#alaventa fieldset div .carrito {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  main section.fondo3 div.fondocolor div.carta div.bloque-carta section#alaventa fieldset p {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.3em;
+  }
+  main section.fondo3 div div#productosContenedor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main section.fondo3 div div#productosContenedor div.contenedor-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.603);
+  }
+  main section.fondo3 div div#productosContenedor div.contenedor-item img {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  main section.fondo3 div div#productosContenedor div.contenedor-item div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main section.fondo3 div div#productosContenedor div.contenedor-item .card-text {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+  footer {
+    background: rgba(255, 166, 0, 0.719);
+    padding-top: 10vh;
+    height: auto;
+  }
+  footer div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding-bottom: 10vh;
+  }
+  footer div .footer-titulo {
+    font-family: 'Caudex', serif;
+    color: #f3f1ef;
+    font-size: 2em;
+  }
+  footer div img {
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+  }
+  footer div div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+  }
+  footer div div .footer-titulo {
+    font-family: 'Caudex', serif;
+    color: antiquewhite;
+  }
+  footer div div ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  footer div div ul li {
+    list-style: none;
+  }
+  footer div div ul li a {
+    font-family: 'Caudex', serif;
+    text-decoration: none;
+    color: antiquewhite;
+  }
+  footer div div ul li a:hover {
+    color: rgba(255, 0, 0, 0.664);
+  }
+  footer h4.copy {
+    background: rgba(219, 159, 48, 0.664);
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: antiquewhite;
+    font-size: 1em;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-family: 'Catamaran', sans-serif;
   }
 }
 
