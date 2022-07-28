@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,7 +12,6 @@
     <script defer src="./js/array.js"></script>
     <script defer src="./js/dom.js"></script>
     <script defer src="./js/constructor.js"></script>
-
     <link rel="icon" href="./elementos/logo.ico"/>
         <!-------jquery cdn-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -91,7 +90,7 @@
             <h2>Sobre nosotros</h2>
           </div>
           <p>La familia Santovitto, oriunda de Sicilia, Italia decidió compartir sus delicias para que todos puedan conocer las tradiciones culinarias que tantos nos enorgullecen, y de esta manera expandir el legado en las calles de Buenos Aires. Victoria Santivitto, quien protagoniza nuestro logo comenzó vendiendo panes en pandemia y su hijo Oscar decidió continuar su legado agregando las recetas culinarias que tanto atesoran. </p>
-          <p>Buon Appetito!</p>
+          <p class="p-fondo2">Buon Appetito!</p>
         </section>
 
         <section class="fondo3" id="desayunos">
@@ -121,6 +120,7 @@
           <div class="recetas">
           <div class="bloque-recetas1">
             <h3>Receta pan de masa madre</h3>
+            <img class="p-celular" src="https://portales.vilbo.com/files/uploads/images/articulos/libros/masa-madre-port.jpg" alt="pan de masa madre">
             <p>El proceso es sencillo, se mezclan todos los ingredientes, se incorporan bien y se deja reposar unos 15 minutos en un bol tapado. Luego se procede al amasado, se puede optar perfectamente por amasar a intervalos, esto es dar un amasado de un minuto y dejar reposar unos 10 minutos tapado, luego repetir el proceso unas 3 veces más.
 
               Luego tienes que darle forma de bola a tu masa y dejarla fermentar en un recipiente ligeramente aceitado durante una hora y media o dos, si quieres a mitad del proceso puedes proceder a plegar la masa, para lo que debes estirar suavemente uno de los extremos de tu masa  y proceder a plegarlo hacia el interior como si se tratase de un tríptico, luego haces lo mismo con el lado opuesto y ya tienes un pliegue en tu masa.
@@ -142,12 +142,15 @@
 
 
           <div class="bloque-recetas2">
-            <img src="https://portales.vilbo.com/files/uploads/images/articulos/libros/masa-madre-port.jpg" alt="pan masa madre" width="300px">
+            <img class="p-escritorio" src="https://portales.vilbo.com/files/uploads/images/articulos/libros/masa-madre-port.jpg" alt="pan masa madre" width="300px">
+            <img class="p-celular" src="http://sweetandsour.es/wp-content/uploads/2020/07/PAN-DE-ACEITUNAS-NEGRAS-SIN-MASA-MADRE.jpg" alt="pan masa madre">
             <h3>Ingredientes</h3>
             <form id="formulario" action="">
               <h4>Ingresá el peso de pan de masa madre que querés cocinar:</h4>
-              <input type="number" name="peso" id="gramos">
-              <button type="submit" id="receta" class="btn btn-outline-secondary btn-sm">Ver ingredientes</button>
+                <div>
+                  <input type="number" name="peso" id="gramos">
+                  <button type="submit" id="receta" class="btn btn-outline-secondary btn-sm">Ver ingredientes</button>
+                </div>
             </form>
             <div id="nuevaReceta">
               <h3 class="ing"></h3>

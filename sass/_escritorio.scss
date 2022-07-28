@@ -281,14 +281,20 @@ section.fondo4{
             p{
                 font-family: 'Assistant', sans-serif;
             }
+            img.p-celular{
+                display: none;
+            }
      
         }
 
         div.bloque-recetas2{
             padding-left: 15px;
-            img{
+            img.p-escritorio{
                 padding-top: 20px;
                 padding-bottom: 20px;
+            }
+            img.p-celular{
+                display: none;
             }
             h3{
                 font-size: 1.6em;

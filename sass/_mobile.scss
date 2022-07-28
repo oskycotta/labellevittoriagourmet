@@ -1,11 +1,12 @@
 
  //Móviles en horizontal o tablets en vertical
  @media all and (max-width: 480px){ 
+    
     nav{
         background: rgb(165, 99, 0)!important;
         z-index: 10;
         position: fixed !important;
-        width: 100%;
+        width: 100vw;
         div{
             a, .nav-link {
                 color: antiquewhite;
@@ -14,6 +15,9 @@
                 img{
                 width: 30vw;
                 }
+            }
+            .nav-link:hover{
+                color: rgba(221, 23, 23, 0.747);
             }
             div, #navbarText, .navbar-collapse, .collapse{
                 ul, .navbar-nav, .me-auto, .mb-2{
@@ -41,11 +45,10 @@ main{
         flex-direction: column;
         z-index: -3;
         h1{
+            width: 100%;
             text-align: center;
             color: antiquewhite;
-            font-size: 270%;
-            padding-left: 150px;
-            padding-right: 150px;
+            font-size: 250%;
         }
         p{
             color: antiquewhite;
@@ -242,6 +245,121 @@ section.fondo3{
 
 
 
+#formulario2{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    h3{
+        font-family: 'Catamaran', sans-serif;
+    }
+    div{
+    input{
+        align-self: center;
+    }
+}
+}
+
+
+
+section.fondo4{
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+
+    h3.titulo-recetas{
+        font-family: 'Great Vibes', cursive;
+        font-size: 3.5em;
+        padding-top: 5vh;
+        text-align: center;
+        width: 90%;
+        position: relative;
+        z-index: 2;
+        align-self: center;
+        padding-bottom: 5vh;
+        }
+        h3.titulo-recetas::after{
+            content: '';
+            position: absolute;
+            top: 75px;
+            left: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.514);
+            height: 17px;
+            z-index: -1;
+        }
+    div.recetas{
+        display: flex;
+        flex-direction: column;
+        div.bloque-recetas1{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            h3{        
+                font-size: 1.6em;
+                font-family: 'Secular One', sans-serif;
+                text-transform: uppercase;
+                text-align:start;
+            }
+            img.p-celular{
+                width: 100%;
+            }
+            p{
+                font-family: 'Assistant', sans-serif;
+                    width: 100%;
+                    font-size: 130%;
+                    color: black;
+
+            }
+     
+        }
+
+        div.bloque-recetas2{
+            img.p-escritorio{
+                display: none;
+            }
+            img.p-celular{
+                width: 100%;
+                padding-bottom: 25px;
+            }
+            h3{
+                font-size: 1.6em;
+                font-family: 'Secular One', sans-serif;
+                text-transform: uppercase;
+                text-align: start;
+            }
+            form{
+                h4{
+                font-family: 'Assistant', sans-serif;
+                    font-size: 1.5em;
+            
+                }
+                div{
+                    display: flex;
+                    flex-direction: row;
+                }
+              
+            }
+            div#nuevaReceta{
+                .ing{
+
+                font-family: 'Assistant', sans-serif;
+                font-size: 1.5em;
+                text-transform:initial;
+                }
+                p{
+                    margin-bottom: 0px !important;
+                    font-size: 130%;
+                }
+            }
+        }
+    }
+}
+
+
 }
 
 
@@ -262,8 +380,8 @@ footer{
         }
         img{
             width: 100%;
-            padding-left: 60px;
-            padding-right: 60px;
+            padding-left: 50px;
+            padding-right: 100px;
             padding-bottom: 30px;
         }
         div{
